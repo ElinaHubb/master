@@ -7,8 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /* Объявляем класс наследующийся от HttpServlet и переопределяющий два его метода
-doGet(HttpServletRequest req, HttpServletResponse resp) и
-doPost(HttpServletRequest req, HttpServletResponse resp)
+doGet(HttpServletRequest req, HttpServletResponse resp)
  */
 public class MyServlet extends HttpServlet {
 
